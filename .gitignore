@@ -4,6 +4,7 @@
 *bin 
 *obj
 *.gitattributes
+*nuget.config
 
 # Object files
 *.o
