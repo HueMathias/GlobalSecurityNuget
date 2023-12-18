@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Description>Ce package permet d'avoir de nombreuses fonctionnalités pour améliorer la sécurité d'une application.</Description>
+    <Copyright>Mathias Hue</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>GlobalSecurityNuget</Title>
+    <Authors>Mathias Hue</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>security.png</PackageIcon>
+	<Version>1.0.0</Version>
+	<AssemblyVersion>$(Version)</AssemblyVersion>
+	<FileVersion>$(Version)</FileVersion>
+	<SignAssembly>True</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="security.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
