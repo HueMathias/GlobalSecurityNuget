@@ -17,6 +17,7 @@
 	<AssemblyVersion>$(Version)</AssemblyVersion>
 	<FileVersion>$(Version)</FileVersion>
 	<SignAssembly>True</SignAssembly>
+	<RepositoryUrl>https://github.com/HueMathias/GlobalSecurityNuget</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
